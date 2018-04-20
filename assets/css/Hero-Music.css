@@ -1,0 +1,22 @@
+div.jumbotron.hero-music {
+  color:#fff;
+  text-align:center;
+  background:url('../../assets/img/keyboard.jpg');
+  background-size:cover;
+  background-position:bottom;
+  padding-top:240px;
+  padding-bottom:200px;
+  height:600px;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 3px 3px rgba(0,0,0,0.4);
+  color:#fff;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  color:#fff;
+}
+

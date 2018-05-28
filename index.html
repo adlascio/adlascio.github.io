@@ -22,17 +22,27 @@
 <body>
     <div>
         <nav class="navbar navbar-light navbar-expand-md fixed-top bg-dark navigation-clean">
-            <div class="container"><a class="navbar-brand text-white" href="#">Arthur Di Lascio</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Arthur Di Lascio</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#about">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#projects">Projects</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
                     </ul>
+                </div>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <div class="jumbotron hero-music">
         <h1 class="hero-title">HI, I'M ARTHUR DI LASCIO</h1>
@@ -42,12 +52,17 @@
     <div class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6"><img src="assets/img/Arthur.jpg"></div>
+                <div class="col-md-6">
+                    <img src="assets/img/Arthur.jpg">
+                </div>
                 <div class="col-md-6">
                     <h2>About Me</h2>
-                    <p>Aspiring Web Developer with a background in Analysis and Systems Development. It is this background which helps me identify client problems and present innovative solutions by breaking down problems into solutions that are easy to
-                        understand and therefore, solve. Further to this, I am passionate about crafting memorable, exciting user experiences while developing clean, maintainable modular code. Motivated self-learner keen to learn new web technologies
-                        to build better, more efficient solutions. The possibilities are endless!</p>
+                    <p>Aspiring Web Developer with a background in Analysis and Systems Development. It is this background which
+                        helps me identify client problems and present innovative solutions by breaking down problems into
+                        solutions that are easy to understand and therefore, solve. Further to this, I am passionate about
+                        crafting memorable, exciting user experiences while developing clean, maintainable modular code.
+                        Motivated self-learner keen to learn new web technologies to build better, more efficient solutions.
+                        The possibilities are endless!</p>
                 </div>
             </div>
         </div>
@@ -58,37 +73,61 @@
                 <h2 class="text-center">Projects </h2>
             </div>
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/TenOutOfTenant.png">
+                <div class="col-sm-6 col-lg-4 item">
+                    <img class="img-fluid" src="assets/img/TenOutOfTenant.png">
                     <h3 class="name">Ten out of Tenant</h3>
                     <p class="description">Ten out of tenant is a web app for managing rental applications and finding your new long term lease.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/chatty.png">
+                <div class="col-sm-6 col-lg-4 item">
+                    <img class="img-fluid" src="assets/img/chatty.png">
                     <h3 class="name">Chatty App</h3>
-                    <p class="description">Chatty is a web application that simulates a chat room with real-time messages. Developed using Node, Express, React and WebSockets.</p>
+                    <p class="description">Chatty is a web application that simulates a chat room with real-time messages. Developed using Node,
+                        Express, React and WebSockets.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/wikimap.png">
+                <div class="col-sm-6 col-lg-4 item">
+                    <img class="img-fluid" src="assets/img/wikimap.png">
                     <h3 class="name">WikiMap</h3>
-                    <p class="description">Wikimap is a web app that allows users to collaboratively create maps which list multiple "points", such as "Best Places to Eat Around Town" or "Locations of Movie Scenes".</p>
+                    <p class="description">Wikimap is a web app that allows users to collaboratively create maps which list multiple "points", such
+                        as "Best Places to Eat Around Town" or "Locations of Movie Scenes".</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/tweet.png">
+                <div class="col-sm-6 col-lg-4 item">
+                    <img class="img-fluid" src="assets/img/tweet.png">
                     <h3 class="name">Tweeter</h3>
                     <p class="description">Tweeter is a twitter clone web application. Developed using Node, Express, MongoDB and SASS.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="contact-clean" id="contact"><form method="post" action='http://formspree.io/arthur.dilascio@gmail.com'>
-    <h2 class="text-center">Contact me</h2>
-    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" /></div>
-    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" /><small class="form-text text-danger">Please enter a correct email address.</small></div>
-    <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-    <div class="form-group"><button class="btn btn-primary" type="submit">send</button></div>
-</form></div>
+    <div class="contact-clean" id="contact">
+        <form method="post" action="https://formspree.io/arthur.dilascio@gmail.com">
+            <h2 class="text-center">Contact me</h2>
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+                <input class="form-control is-invalid" type="email" name="email" placeholder="Email" />
+                <small class="form-text text-danger">Please enter a correct email address.</small>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">send</button>
+            </div>
+        </form>
+    </div>
     <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col item social"><a href="#"><i class="icon ion-social-linkedin-outline"></i></a><a href="#"><i class="icon ion-social-github-outline"></i></a></div>
+                    <div class="col item social">
+                        <a href="#">
+                            <i class="icon ion-social-linkedin-outline"></i>
+                        </a>
+                        <a href="#">
+                            <i class="icon ion-social-github-outline"></i>
+                        </a>
+                    </div>
                 </div>
                 <p class="copyright">Arthur Di Lascio © 2018</p>
             </div>

@@ -667,6 +667,10 @@ img {
   font-weight: var(--font-medium);
 }
 
+textarea {
+  resize: none;
+}
+
 /* ====================== FOOTER ======================= */
 
 .footer {
